@@ -1,12 +1,14 @@
 input.onLoudSound(function () {
-    music.baDing.play()
+    input.setLoudSoundThreshold(250)
     light.setBrightness(20)
     light.showAnimation(light.rainbowAnimation, 200)
-    makerController.player1.press(ArcadeButton.A)
     light.clear()
+    makerController.player1.press(ArcadeButton.A)
+})
+input.buttonA.onEvent(ButtonEvent.Click, function () {
+	
 })
 input.buttonB.onEvent(ButtonEvent.Click, function () {
-    music.pewPew.play()
     light.setBrightness(20)
     light.showAnimation(light.rainbowAnimation, 200)
     makerController.player1.press(ArcadeButton.B)
