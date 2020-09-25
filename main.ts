@@ -1,5 +1,5 @@
 input.onLoudSound(function () {
-    input.setLoudSoundThreshold(150)
+    input.setLoudSoundThreshold(250)
     light.setBrightness(20)
     light.showAnimation(light.rainbowAnimation, 200)
     makerController.player1.press(ArcadeButton.A)
