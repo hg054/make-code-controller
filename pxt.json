@@ -1,5 +1,5 @@
 {
-    "name": "GOODTWO",
+    "name": "MakeController",
     "description": "",
     "dependencies": {
         "circuit-playground": "*",
