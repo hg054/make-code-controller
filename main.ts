@@ -1,7 +1,6 @@
-input.onLoudSound(function () {
-    input.setLoudSoundThreshold(180)
+input.buttonA.onEvent(ButtonEvent.Click, function () {
     light.setBrightness(20)
-    light.showAnimation(light.cometAnimation, 200)
+    light.showAnimation(light.sparkleAnimation, 200)
     makerController.player1.press(ArcadeButton.A)
     light.clear()
 })
