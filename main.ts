@@ -1,5 +1,5 @@
 input.onLoudSound(function () {
-    input.setLoudSoundThreshold(250)
+    input.setLoudSoundThreshold(180)
     light.setBrightness(20)
     light.showAnimation(light.rainbowAnimation, 200)
     light.clear()
